@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 300%;
+}
+
+p{
+  font-family: "chalkduster";
+  text-indent: 25px;
+  margin-left: 10px;
+}
+
+#content {
+  background-color: #ff00ff;
+  width: 700px;
+  min-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 10px #00ffff;
+  font-size: 28px;
+}
