@@ -1,0 +1,31 @@
+h1{
+    color: #FF1493 ;
+    text-align: center;
+    font-size: 200%;
+}
+
+.special {
+  color : red;
+}
+
+#output button {
+  margin: 100px;
+
+}
+
+p{
+  font-family: "chalkduster";
+  text-indent: 25px;
+  margin-left: 10px;
+}
+
+
+#challenge, #problems, #results {
+  background-color: #FA9799;
+  width: 1350px;
+  min-height: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 10px #FFF783;
+  font-size: 18px;
+}
