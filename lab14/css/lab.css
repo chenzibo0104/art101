@@ -1,0 +1,38 @@
+h1{
+    color: #28B463 ;
+    text-align: center;
+    font-size: 200%;
+}
+
+p{
+  font-family: "chalkduster";
+  text-indent: 25px;
+  margin-left: 10px;
+}
+
+
+#content {
+  background-color: #FA9883;
+  width: 1350px;
+  min-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 10px #FAF783;
+  font-size: 18px;
+}
+
+#stephen_question {
+  width: 600px;
+}
+
+#stephen_answer {
+  width: 600px;
+}
+
+#zibo_question {
+  width: 600px;
+}
+
+#zibo_answer {
+  width: 600px;
+}
