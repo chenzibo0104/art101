@@ -1,0 +1,151 @@
+html {
+  box-sizing: border-box;
+}
+/* * means "all elements" (a universal selector), so we are setting all elements to have zero margins,
+and zero padding, thus making them look the same in all browsers. */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+p {
+  text-align: center;
+  color: #88c249;
+  font-family: "Apple Chancery", cursive;
+  font-weight: 50;
+  line-height: 1em;
+  font-size: 2em;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Bradley-Hand", cursive;
+  background: #ecebbd;
+  /* color: #a9ca84; */
+}
+.wrapper {
+  width: 90%;
+  margin: 1em auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5em 2em 0.5em 2em;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.wrapper h1 {
+  font-family: "Bradley-Hand", cursive;
+  color: #52643e;
+  font-weight: 500;
+  line-height: 1em;
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+}
+.wrapper h1 span {
+  font-size: 0.2em;
+  background: rgb(81, 206, 129);
+  padding: 0.2em 0.5em;
+}
+
+h2 {
+  font-family: "Bradley-Hand", cursive;
+  color: #6e8751;
+  font-weight: 500;
+  line-height: 1em;
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+}
+.profiling-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.veggie-container {
+  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.veggie-container select {
+  border: none;
+  height: 2.2em;
+  width: 10em;
+  font-size: 0.9em;
+  border-radius: 25px;
+  box-sizing: 1px 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.fruit-container {
+  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fruit-container select {
+  border: none;
+  height: 2.2em;
+  width: 10em;
+  font-size: 0.9em;
+  border-radius: 25px;
+  box-sizing: 1px 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.protein-container {
+  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.protein-container select {
+  border: none;
+  height: 2.2em;
+  width: 10em;
+  font-size: 0.9em;
+  border-radius: 25px;
+  box-sizing: 1px 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dairy-container {
+  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dairy-container select {
+  border: none;
+  height: 2.2em;
+  width: 10em;
+  font-size: 0.9em;
+  border-radius: 25px;
+  box-sizing: 1px 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.submit-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 3em 0 0 0;
+}
+.submit-button input {
+  padding: 0.5em 4em;
+  margin: 1em 0;
+  font-size: 1em;
+  background: rgb(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+  outline: none;
+  transition: all 0.2s;
+}
+.submit-button input:active {
+  background: #26f393;
+  box-shadow: none;
+  color: #000;
+}
+
+.display {
+  margin: 1em;
+message.txt
+3 KB
